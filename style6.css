@@ -1,0 +1,133 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+.Header{
+    width: 100% ;
+    height: 10vh ;
+    display: flex ;
+    text-align: center;
+    background-color: rgba(0 , 0 , 0 , 0.9 )  ;
+    border-bottom: 1px solid rgba(30, 81, 123 , 0.9 );
+    position: fixed ; 
+    
+}
+.list{
+  display: flex;
+  margin-left: 78%  ;
+} 
+.items{
+    margin-top: 5% ;
+    margin-left: 15% ;
+    list-style-type: none ;
+}
+.Container1{
+    position: fixed ;
+    top: 10vh ; 
+    width: 100% ;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.one {
+    width: 40vw;
+    height: 75vh;
+    margin-top: 5vh;
+    border : 0.2px solid transparent ; 
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(228, 241, 254, 0.2);
+    box-shadow: 
+    2px 2px 5px rgba(0, 0, 0, 0.2),
+    -2px -2px 5px rgba(0, 0, 0, 0.2),
+    2px -2px 5px rgba(0, 0, 0, 0.2),
+    -2px 2px 5px rgba(0, 0, 0, 0.2); /* Evenly spread box shadow */
+}
+
+.two{
+    width: 50vw;
+    height: 80vh;
+    margin-top: 2.5vh ;
+    border-radius: 5% ;
+}
+.head{
+    width: 30vw  ;
+    height: 10vh ;
+    font-size: 50px ;
+    color: #e50010;
+    font-family: monospace ;
+}
+.form{
+    width: 30vw  ;
+    height: 60vh 
+
+}
+.input{
+    list-style-type: none;
+    text-decoration: none ;
+    margin-left: 2% ;
+    margin-top: 5%  ;
+    padding: 2% ;
+    width: 30vw ;
+    box-shadow: 
+    2px 2px 5px rgba(0, 0, 0, 0.2),
+    -2px -2px 5px rgba(0, 0, 0, 0.2),
+    2px -2px 5px rgba(0, 0, 0, 0.2),
+    -2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color:rgba(228, 241, 254, 0.2) ; 
+    font-size: large;
+    font-family: monospace;
+}
+#name{
+    width: 20vw ;
+    height: 5vh ;
+}
+#email1{
+    width: 20vw ;
+    height: 5vh ;
+}
+#message{
+    width:20vw ;
+    height: 30vh ;
+    border-radius: 2.5% ;
+    border: 0.5px solid grey ;
+    resize: vertical;
+    position: absolute;
+    left: 10%   ;
+    top: 54%;
+    scrollbar-width: none ;
+}
+#m{
+    width:30vw ;
+    height: 30vh ;
+}
+.title {
+    position: fixed;
+    left: 2%;
+    color: transparent ;
+    font-size: 50px;
+    font-family: "Bodoni Moda", serif;
+    top: 0.3%;
+    text-shadow:  1px 1px 0 white , 
+    -1px -1px 0 white, 
+    1px -1px 0 white , 
+    -1px 1px 0 white ;;
+}
+.Submit{
+    position: fixed;
+    left: 37% ;
+    top: 82% ;
+    padding: 0.2%;
+    font-size: 20px ;
+    border-color: transparent;
+    background-color:  rgba(30, 81, 123 , 1 );
+    color: white;
+    border-radius: 5% ;
+}
+.Submit:active{
+    color: rgba(30, 81, 123 , 1 );
+    background-color: rgba(228, 241, 254, 0.2);
+}

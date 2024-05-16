@@ -1,0 +1,30 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+.Header{
+    text-align: center;
+    width: 100vw;
+    height: 10vh ;
+    font-size: 40px ;
+    padding: 2% ;
+}
+.Recieved{
+ width: 90vw ;
+ height: auto ;
+ margin-top: 2% ;
+ margin-left: 5vw;
+}
+.list{
+    display: block ;
+}
+.items{
+    list-style-type: none ;
+    width: 80vw ;
+    height: 8vh ;
+    background-color: #f1f2f3; 
+    border: 2px solid black ;
+    margin-top: 2% ;
+    padding: 1%  ;
+    font-size: 40px ;
+}

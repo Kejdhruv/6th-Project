@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Admin {
+    position: fixed;
+    display: inline;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 20px;
+    z-index: 1;
+    font-family: "HM Sans Regular", "HMSansHebrew-Regular", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+}
+
+.Head {
+    display: inline;
+    position: fixed;
+    top: 5%;
+    left: 46.5%;
+    font-size: 50px;
+    z-index: 1;
+    color: #e50010;
+    font-family: "Futura", "Futura Bold", "Helvetica", Arial, sans-serif;
+}
+
+.Cart {
+
+    position: fixed;
+    left: 80% ; 
+    z-index: 1;
+    font-family: "HM Sans Semi Bold", "HMSansHebrew-SemiBold", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+#cart {
+    margin-top: 40px;
+}
+
+.items {
+    margin-left: 12.5%;
+    font-size: large;
+}
+#wish{
+    margin-top: 40px ;
+    margin-left: 20px ;
+}
+.Container1 {
+    position: absolute;
+    width: 100%;
+    border-top: 0.5px solid #F1F2F3;
+    top: 18%;
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+}
+.Image{
+    width: 357px  ; 
+    height:75vh ; 
+    margin-top: 2% ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Content{
+    width: 800px;
+    height: 75vh ;
+    border-left: 3px solid #F1F2F3 ;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2% ;
+}
+.Heading{
+    width: 600px ;
+    height: 10vh  ;
+    font-size: 30px ;
+    margin-right: 5% ;
+    font-family: "HM Sans Semi Bold", "HMSansHebrew-SemiBold", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.Price{
+    height:  5vh ;
+    color: red ;
+    margin-right: 67% ;
+    font-family: monospace;
+    font-size: larger  ;
+}
+.Description{
+    width: 500px ;
+    height: 40vh ; 
+    margin-right: 17.5% ;
+    font-family: "Quicksand", sans-serif;
+    color : grey ; 
+}
+.Bag{
+    position: absolute;
+    top: 80% ;
+    left: 80% ;
+}
+.Wishlist{
+    position: absolute; 
+    top: 80% ;
+    left: 70%;
+    background-color: #F1F2F3;
+}
+button{
+    border-color: rgba(210 , 215 , 211 , 0.7 );
+    border-radius: 8% ;
+    font-size: 20px ;
+    width: 120px;
+    height: 5vh ; 
+    font-family: monospace;
+}
+button:active{
+    color: #e50010;
+}
+.Size{
+    position: absolute;
+    top: 82% ;
+    left: 44% ;
+    font-size: 20px ;
+    font-family: monospace;
+}
+#size{
+    background-color: #F1F2F3;
+    font-size: 15px ;
+    border-color: rgba(210 , 215 , 211 , 0.7 );
+    font-family: 'Courier New', Courier, monospace;
+}

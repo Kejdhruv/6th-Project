@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Admin {
+    position: fixed;
+    display: inline;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 20px;
+    z-index: 1;
+    font-family: "Barlow" , sans-serif;
+
+}
+
+.Head {
+    display: inline;
+    position: fixed;
+    top: 5%;
+    left: 46.5%;
+    font-size: 50px;
+    z-index: 1;
+    color: #e50010;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 500 ;
+}
+
+.Cart {
+
+    position: fixed;
+    left: 80% ; 
+    z-index: 1;
+    font-family: "Barlow" , sans-serif ;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+#cart {
+    margin-top: 40px;
+    font-family: "Barlow" , sans-serif ;
+    font-size: larger;
+}
+
+.items {
+    margin-left: 12.5%;
+    font-size: large;
+}
+
+button {
+    margin-top: 30px  ; 
+    height: 40px;
+    width: 80px;
+    font-size: large;
+    border-radius: 10%;
+    border-color: transparent;
+    font-family: "Barlow" , sans-serif ;
+
+    font-weight: 300;
+}
+
+.Container1 {
+    position: absolute;
+    width: 100%;
+    border-top: 0.5px solid #F1F2F3;
+    top: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.Content {
+    width: 40vw;
+    height: 5vh;
+    text-align: center;
+    padding-top: 0.8%;
+    background-color: #F1F2F3;
+}
+
+.options {
+    margin-left: 5.2%;
+    margin-right: 5%;
+    color: black;
+    font-family: "Barlow" , sans-serif ;
+    font-size: large;
+}
+
+.explore {
+    margin-top: 2%;
+    width: 80vw;
+    height: 68vh;
+}
+
+
+.explore {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+
+
+}
+
+.slides {
+    height: 68vh;
+    text-align: center;
+    border-radius: 10% ;
+
+}
+
+.explore img {
+    width: 80vw;
+    display: none;
+    height: 68vh;
+    border-radius: 2.4%   ;
+}
+
+img.displaySlide {
+    display: block;
+
+}
+
+button:hover {
+    color: #e50010;
+}
+
+.options:hover {
+    color: #e50010;
+}

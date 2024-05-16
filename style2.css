@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.Container1 {
+    height: 100vh;
+    scrollbar-width: none;
+}
+.Sidebar {
+    border: 2px solid rgba(9, 9, 55, 0.1);
+    width: 15vw;
+    background-color: #f1f2f3 ; 
+    box-shadow: inset;
+    height: 100%;
+    position: fixed;
+    margin-right: 10vw;
+    display: inline;
+}
+.Item {
+    margin: 20%;
+    text-decoration: none;
+    background-color: #f1f2f3;
+}
+.items {
+    margin-top: 20%;
+    list-style-type: none;
+    font-family: monospace;
+    font-size: large;
+    text-decoration: none;
+    font-family: "Barlow" , sans-serif;
+    background-color: #f1f2f3;
+}
+.items:active {
+    color: rgba(229, 0, 16, 1 );
+}
+#Dashboard {
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 15%;
+    background-color: #f1f2f3;
+    font-family: "Barlow" , sans-serif; 
+}
+.ProductCard {
+    float: right;
+    margin-right: 4.3vw;
+    display: grid;
+    grid-template-columns: repeat(3, 25vw);
+    /* Two columns each with 25vw width */
+    grid-template-rows: repeat(auto-fill, auto-fill);
+    gap: 20px;
+    /* Gap between grid items */
+    position: relative;
+    top: 20vh;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f3;
+    border-radius: 5%;
+    box-shadow: 
+        2px 2px 5px rgba(0, 0, 0, 0.2),
+        -2px -2px 5px rgba(0, 0, 0, 0.2),
+        2px -2px 5px rgba(0, 0, 0, 0.2),
+        -2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#Head {
+    margin-left: 12vw ;
+    display: inline-block;
+    z-index: 1;
+    padding-bottom: 4vh;
+    font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+   font-weight: 700 ;
+    font-size: 30px;
+    padding-top: 4vh;
+    position: fixed;
+    background-color: #f1f2f3;
+    height: 6vh;
+    width: 88vw;
+    text-align: center; 
+}
+.pimage {
+    margin-top: 2vh;
+    width: 20vw;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Name {
+    width: 20vw;
+    height: 4vh;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2vh;
+    padding-top: 3vh;
+    background-color: #f1f2f3;
+    font-family: "Quicksand", sans-serif;
+}
+.product:active {
+    background-color: rgba(229, 0, 16, 0.2);
+}
+.Name:active {
+    background-color: rgba(229, 0, 16, 0.02);
+    color: black;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('path/to/Poppins.woff2') format('woff2') ; 
+        
+    font-weight: normal;
+    font-style: normal;
+}
+.customText {
+    font-family: 'Permanent Marker', cursive;
+}
+#Contact{
+    top: 43% ; 
+    left: 3% ; 
+    font-family: "Barlow" , sans-serif;
+    font-size: large ;
+    position: fixed ;
+}
+#Contact:active{
+    color: rgba(229, 0, 16, 1 ) ; 
+}
